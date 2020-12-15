@@ -32,3 +32,11 @@ GET : Get a todo
 PUT : Update a todo
 DELETE : Delete a todo
 ```
+
+####Dependency Management
+check go.mod to see the dependencies
+```
+go mod vendor
+```
+Now whenever you do go get <any package> the dependecy
+will automatically add to go.sum file (It contains the dependency tree of the overall project and its dependencies)
