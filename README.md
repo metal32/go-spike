@@ -2,6 +2,12 @@
 
 Building a web application in Go using Gin webframework and GORM
 
+Make sure you clone this repo inside GOPATH directory
+```
+go env
+```
+This command will give you the path of GOPATH
+
 ###Project Structure
 ```
 Project --
