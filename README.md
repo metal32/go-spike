@@ -1,6 +1,11 @@
 # go-spike
 
-Building a web application in Go using Gin webframework and GORM
+Building a web application in Go using Gin webframework and GORM for MySql
+
+```
+Go to Config/Database.go
+Update DB config according to your MYSQL config
+```
 
 ```
 cd `Directory`
