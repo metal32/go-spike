@@ -9,8 +9,8 @@ Update DB config according to your MYSQL config
 
 ```
 cd `Directory`
-go build
-go run main.go
+go build -o main
+./main
 ```
 
 Make sure you clone this repo inside GOPATH directory
