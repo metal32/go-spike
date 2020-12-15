@@ -2,6 +2,12 @@
 
 Building a web application in Go using Gin webframework and GORM
 
+```
+cd `Directory`
+go build
+go run main.go
+```
+
 Make sure you clone this repo inside GOPATH directory
 ```
 go env

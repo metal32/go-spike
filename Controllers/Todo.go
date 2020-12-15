@@ -2,7 +2,7 @@ package Controllers
 
 import (
 	"net/http"
-	"../Models"
+	"todoexample.com/Models"
 	"github.com/gin-gonic/gin"
 )
 

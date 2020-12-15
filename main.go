@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
-	"./Config"
-	"./Models"
-	"./Routes"
+	"todoexample.com/Config"
+	"todoexample.com/Models"
+	"todoexample.com/Routes"
 	"github.com/jinzhu/gorm"
-	u "./Utils"
+	u "todoexample.com/Utils"
 )
 
 var err error
