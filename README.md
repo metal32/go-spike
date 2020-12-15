@@ -42,6 +42,12 @@ Project --
  ```
 
  ###API
+
+```
+How Gin process a request
+Request -> Route Parser -> [Optional Middleware] -> Route Handler -> [Optional Middleware] -> Response
+```
+
  ```
 GET : Get all todos
 POST : Create a todo

@@ -1,6 +1,7 @@
 package Controllers
 
 import (
+	"fmt"
 	"net/http"
 	"todoexample.com/Models"
 	"github.com/gin-gonic/gin"
@@ -8,6 +9,7 @@ import (
 
 //List all todos
 func GetTodos(c *gin.Context) {
+	fmt.Println("Came inside get Todos--------")
 	var todo []Models.Todo
 	err := Models.GetAllTodos(&todo)
 	if err != nil {
@@ -31,6 +33,7 @@ func CreateATodo(c *gin.Context) {
 
 //Get a particular Todo with id
 func GetATodo(c *gin.Context) {
+	fmt.Println("Came inside get Todo--------")
 	id := c.Params.ByName("id")
 	var todo Models.Todo
 	err := Models.GetATodo(&todo, id)
